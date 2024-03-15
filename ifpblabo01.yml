@@ -7,7 +7,7 @@ topology:
       kind: nokia_srlinux
       image: ghcr.io/nokia/srlinux:23.10.1
       type: ixrd3
-    #  startup-config: srlrt/config.json
+      startup-config: srlrouter.cfg
 
     PC1:
       kind: linux
